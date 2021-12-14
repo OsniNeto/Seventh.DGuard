@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Seventh.DGuard.Database\Seventh.DGuard.Database.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.DTO\Seventh.DGuard.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

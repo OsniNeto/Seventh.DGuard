@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>\Seventh.DGuard\Seventh.DGuard\Seventh.DGuard.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Seventh.DGuard.Business.Interface\Seventh.DGuard.Business.Interface.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.Business\Seventh.DGuard.Business.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.Database\Seventh.DGuard.Database.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.DTO\Seventh.DGuard.DTO.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.Repository\Seventh.DGuard.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>

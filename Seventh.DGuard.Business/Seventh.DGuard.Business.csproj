@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Seventh.DGuard.Business.Interface\Seventh.DGuard.Business.Interface.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.Core\Seventh.DGuard.Core.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.Database\Seventh.DGuard.Database.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.DTO\Seventh.DGuard.DTO.csproj" />
+    <ProjectReference Include="..\Seventh.DGuard.Repository.Interface\Seventh.DGuard.Repository.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
